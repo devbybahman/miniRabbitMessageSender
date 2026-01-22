@@ -16,3 +16,4 @@ C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\Publisher\obj\Deb
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\Publisher\obj\Debug\net9.0\Publisher.pdb
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\Publisher\obj\Debug\net9.0\Publisher.genruntimeconfig.cache
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\Publisher\obj\Debug\net9.0\ref\Publisher.dll
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\Publisher\bin\Debug\net9.0\Newtonsoft.Json.dll

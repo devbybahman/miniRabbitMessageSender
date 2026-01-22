@@ -1,7 +1,10 @@
-﻿using RabbitMQ.Client;
+﻿using Newtonsoft.Json;
+using RabbitMQ.Client;
 using System.Text;
-Console.WriteLine("Please Enter Your PhoneNumber :");
-var phone = Console.ReadLine();
+Console.WriteLine("Please Enter Your Email :");
+var email = Console.ReadLine();
+Console.WriteLine("Please Enter Your Name :");
+var name = Console.ReadLine();
 // create connection
 var ConnectionFactory = new ConnectionFactory()
 {
@@ -15,13 +18,23 @@ var connection = ConnectionFactory.CreateConnection();
 var model = connection.CreateModel();
 // create a queue 
 var queue = "register_user";
+var ExchangeName = "User_Registered";
 model.QueueDeclare(queue, true, false, false, null);
+model.ExchangeDeclare(ExchangeName, ExchangeType.Fanout, true);
 // create a publish
-if (phone != null)
+if (email != null)
 {
+    var user = new User()
+    {
+        Email = email,
+        Name = name
+    };
+    //convert object to json
+    var userConvert=JsonConvert.SerializeObject(user);
+
     //first . create Body Message to Byte
-    var body = Encoding.UTF8.GetBytes(phone.ToString());
+    var body = Encoding.UTF8.GetBytes(userConvert);
     //     "Direct",RoutingKey==QueueName Bezar
-    model.BasicPublish("", queue, null, body);
+    model.BasicPublish(ExchangeName, queue, null, body);
 }
 Console.ReadKey();

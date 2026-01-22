@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v9.0": {
       "Publisher/1.0.0": {
         "dependencies": {
+          "Newtonsoft.Json": "13.0.0.0",
           "RabbitMQ.Client": "6.0.0.0"
         },
         "runtime": {
           "Publisher.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
         }
       },
       "RabbitMQ.Client/6.0.0.0": {
@@ -27,6 +36,11 @@
   "libraries": {
     "Publisher/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
