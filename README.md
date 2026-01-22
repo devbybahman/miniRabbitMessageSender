@@ -1,6 +1,7 @@
 # miniRabbitMessageSender
 ###shot :
-<img width="1109" height="744" alt="Untitled" src="https://github.com/user-attachments/assets/305c5112-acbe-4662-8639-5435c4f1b70c" />
+<img width="1800" height="632" alt="image" src="https://github.com/user-attachments/assets/9b7720c7-287e-40bf-a115-ec6a12080f0e" />
+
 
 
 `miniRabbitMessageSender` is a simple message queue application using **RabbitMQ** to handle the sending and receiving of SMS-like notifications. This project demonstrates how to set up a basic **Publisher-Subscriber** pattern with **RabbitMQ** using **C#**.
