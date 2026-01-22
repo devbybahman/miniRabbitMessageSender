@@ -12,7 +12,7 @@ var ConnectionFactory = new ConnectionFactory()
 };
 var connection = ConnectionFactory.CreateConnection();
 var model = connection.CreateModel();
-var queue = "register_user";
+var queue = "SendSmsQueue";
 var ExchangeName = "User_Registered";
 model.QueueDeclare(queue, true, false, false, null);
 model.ExchangeDeclare(ExchangeName, ExchangeType.Fanout, true);
@@ -27,7 +27,7 @@ consumer.Received += (sender, args) =>
     if (user !=null)
     {
         // Do something like send SMS
-        Console.WriteLine($"Hi {user.Email + user.Name}");
+        Console.WriteLine($"SMS sent to {user.Phone}");
         model.BasicAck(args.DeliveryTag, false);
     }
 

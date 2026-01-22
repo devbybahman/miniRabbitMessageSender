@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{66977525-33DA-4FF5-A466-9651801B8419}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subscriber", "subscriber\subscriber.csproj", "{FF0FE7FE-1FCE-4AFB-B574-42974A8237D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscriberEmail", "SubscriberEmail\SubscriberEmail.csproj", "{D9E68D99-C682-4021-A4F4-D67ECF7CBCD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FF0FE7FE-1FCE-4AFB-B574-42974A8237D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF0FE7FE-1FCE-4AFB-B574-42974A8237D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF0FE7FE-1FCE-4AFB-B574-42974A8237D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E68D99-C682-4021-A4F4-D67ECF7CBCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E68D99-C682-4021-A4F4-D67ECF7CBCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E68D99-C682-4021-A4F4-D67ECF7CBCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E68D99-C682-4021-A4F4-D67ECF7CBCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

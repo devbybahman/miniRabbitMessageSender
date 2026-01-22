@@ -1,10 +1,11 @@
 ﻿using Newtonsoft.Json;
 using RabbitMQ.Client;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 Console.WriteLine("Please Enter Your Email :");
 var email = Console.ReadLine();
-Console.WriteLine("Please Enter Your Name :");
-var name = Console.ReadLine();
+Console.WriteLine("Please Enter Your Phone :");
+var phone = Console.ReadLine();
 // create connection
 var ConnectionFactory = new ConnectionFactory()
 {
@@ -27,14 +28,14 @@ if (email != null)
     var user = new User()
     {
         Email = email,
-        Name = name
+        Phone=phone
     };
     //convert object to json
     var userConvert=JsonConvert.SerializeObject(user);
 
     //first . create Body Message to Byte
     var body = Encoding.UTF8.GetBytes(userConvert);
-    //     "Direct",RoutingKey==QueueName Bezar
+    //     "Fanout Exchange",RoutingKey== mohem nist dar Fanout
     model.BasicPublish(ExchangeName, queue, null, body);
 }
 Console.ReadKey();

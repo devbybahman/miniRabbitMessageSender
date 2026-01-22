@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "subscriber/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/subscriber.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/subscriber.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "subscriber/1.0.0": {
+      "type": "project",
+      "path": "../subscriber/subscriber.csproj",
+      "msbuildProject": "../subscriber/subscriber.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "subscriber >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\sadat system\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj": {
+              "projectPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
