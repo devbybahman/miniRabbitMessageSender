@@ -6,7 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "subscriber": "1.0.0"
+          "SubscriberSMS": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Publisher.dll": {}
@@ -15,14 +15,14 @@
           "bin/placeholder/Publisher.dll": {}
         }
       },
-      "subscriber/1.0.0": {
+      "SubscriberSMS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/subscriber.dll": {}
+          "bin/placeholder/SubscriberSMS.dll": {}
         },
         "runtime": {
-          "bin/placeholder/subscriber.dll": {}
+          "bin/placeholder/SubscriberSMS.dll": {}
         }
       }
     }
@@ -33,10 +33,10 @@
       "path": "../Publisher/Publisher.csproj",
       "msbuildProject": "../Publisher/Publisher.csproj"
     },
-    "subscriber/1.0.0": {
+    "SubscriberSMS/1.0.0": {
       "type": "project",
-      "path": "../subscriber/subscriber.csproj",
-      "msbuildProject": "../subscriber/subscriber.csproj"
+      "path": "../subscriber/SubscriberSMS.csproj",
+      "msbuildProject": "../subscriber/SubscriberSMS.csproj"
     }
   },
   "projectFileDependencyGroups": {

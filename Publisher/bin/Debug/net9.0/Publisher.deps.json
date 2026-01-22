@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "Publisher/1.0.0": {
         "dependencies": {
-          "subscriber": "1.0.0",
+          "SubscriberSMS": "1.0.0",
           "Newtonsoft.Json": "13.0.0.0",
           "RabbitMQ.Client": "6.0.0.0"
         },
@@ -16,9 +16,9 @@
           "Publisher.dll": {}
         }
       },
-      "subscriber/1.0.0": {
+      "SubscriberSMS/1.0.0": {
         "runtime": {
-          "subscriber.dll": {
+          "SubscriberSMS.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -48,7 +48,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "subscriber/1.0.0": {
+    "SubscriberSMS/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

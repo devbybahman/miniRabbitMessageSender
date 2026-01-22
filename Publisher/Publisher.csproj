@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\subscriber\subscriber.csproj" />
+    <ProjectReference Include="..\subscriber\SubscriberSMS.csproj" />
   </ItemGroup>
 
   <ItemGroup>

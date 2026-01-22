@@ -1,8 +1,5 @@
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Publisher.deps.json
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Publisher.runtimeconfig.json
-C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\subscriber.deps.json
-C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\subscriber.runtimeconfig.json
-C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\subscriber.exe
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Publisher.exe
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberEmail.exe
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberEmail.deps.json
@@ -12,9 +9,7 @@ C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\b
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Publisher.dll
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\RabbitMQ.Client.dll
-C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\subscriber.dll
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\Publisher.pdb
-C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\subscriber.pdb
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\SubscriberEmail.csproj.AssemblyReference.cache
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\SubscriberEmail.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\SubscriberEmail.AssemblyInfoInputs.cache
@@ -27,3 +22,8 @@ C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\o
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\SubscriberEmail.pdb
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\SubscriberEmail.genruntimeconfig.cache
 C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\obj\Debug\net9.0\ref\SubscriberEmail.dll
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberSMS.deps.json
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberSMS.runtimeconfig.json
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberSMS.exe
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberSMS.dll
+C:\Users\sadat system\OneDrive\Desktop\miniRabbitMessageSender\SubscriberEmail\bin\Debug\net9.0\SubscriberSMS.pdb

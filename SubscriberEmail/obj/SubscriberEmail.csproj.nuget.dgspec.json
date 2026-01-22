@@ -34,8 +34,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj": {
-                "projectPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj"
+              "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\SubscriberSMS.csproj": {
+                "projectPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\SubscriberSMS.csproj"
               }
             }
           }
@@ -146,12 +146,12 @@
         }
       }
     },
-    "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj": {
+    "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\SubscriberSMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj",
-        "projectName": "subscriber",
-        "projectPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\subscriber.csproj",
+        "projectUniqueName": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\SubscriberSMS.csproj",
+        "projectName": "SubscriberSMS",
+        "projectPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\SubscriberSMS.csproj",
         "packagesPath": "C:\\Users\\sadat system\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sadat system\\OneDrive\\Desktop\\miniRabbitMessageSender\\subscriber\\obj\\",
         "projectStyle": "PackageReference",

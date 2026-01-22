@@ -18,7 +18,7 @@
       },
       "Publisher/1.0.0": {
         "dependencies": {
-          "subscriber": "1.0.0"
+          "SubscriberSMS": "1.0.0"
         },
         "runtime": {
           "Publisher.dll": {
@@ -27,9 +27,9 @@
           }
         }
       },
-      "subscriber/1.0.0": {
+      "SubscriberSMS/1.0.0": {
         "runtime": {
-          "subscriber.dll": {
+          "SubscriberSMS.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -64,7 +64,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "subscriber/1.0.0": {
+    "SubscriberSMS/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
